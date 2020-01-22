@@ -655,7 +655,8 @@ EVENTS
         alert("YOUR WINDOW IS BELOW THE MINIMUM SIZE...\nPLEASE RESIZE YOUR WINDOW");
     }
     
-    var socket = new WebSocket("ws://145.94.230.199:3000");
+	 const HSOT = location.origin.replace(/^http/, 'ws');
+    var socket = new WebSocket(HOST);
 
     socket.onmessage = function(event) {
         let incomingMsg = JSON.parse(event.data);
