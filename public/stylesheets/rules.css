@@ -1,4 +1,4 @@
-@font-face { font-family: GameofThrones; src: url('../fonts/game-of-thrones/GameofThrones.TTF'); } 
+@font-face { font-family: GameofThrones; src: url('.../.fonts/GameofThrones.TTF'); } 
 
 h1 {
   font-family: GameofThrones;
